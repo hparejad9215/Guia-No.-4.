@@ -1,0 +1,306 @@
+package colegio.canino;
+
+public class Perro {
+
+    private String nombre;
+    private String raza;
+    private String localidad;
+    private String propietario;
+    private String fecha;
+    private int cedula;
+    private int telefonocontacto;
+    private int edad;
+
+    Perro() {
+        // <editor-fold defaultstate="collapsed" desc="Compiled Code">
+        /* 0: aload_0
+         * 1: invokespecial java/lang/Object."<init>":()V
+         * 4: new           java/util/Scanner
+         * 7: dup
+         * 8: getstatic     java/lang/System.in:Ljava/io/InputStream;
+         * 11: invokespecial java/util/Scanner."<init>":(Ljava/io/InputStream;)V
+         * 14: astore_1
+         * 15: getstatic     java/lang/System.out:Ljava/io/PrintStream;
+         * 18: ldc           Ingrese el nombre del perro: \n
+         * 20: invokevirtual java/io/PrintStream.print:(Ljava/lang/String;)V
+         * 23: aload_0
+         * 24: aload_1
+         * 25: invokevirtual java/util/Scanner.nextLine:()Ljava/lang/String;
+         * 28: putfield      Perros/Perro.nombre:Ljava/lang/String;
+         * 31: getstatic     java/lang/System.out:Ljava/io/PrintStream;
+         * 34: ldc           Ingrese la raza del perro: \n
+         * 36: invokevirtual java/io/PrintStream.print:(Ljava/lang/String;)V
+         * 39: aload_0
+         * 40: aload_1
+         * 41: invokevirtual java/util/Scanner.nextLine:()Ljava/lang/String;
+         * 44: putfield      Perros/Perro.raza:Ljava/lang/String;
+         * 47: getstatic     java/lang/System.out:Ljava/io/PrintStream;
+         * 50: ldc           Ingrese la localidad: \n
+         * 52: invokevirtual java/io/PrintStream.print:(Ljava/lang/String;)V
+         * 55: aload_0
+         * 56: aload_1
+         * 57: invokevirtual java/util/Scanner.nextLine:()Ljava/lang/String;
+         * 60: putfield      Perros/Perro.localidad:Ljava/lang/String;
+         * 63: getstatic     java/lang/System.out:Ljava/io/PrintStream;
+         * 66: ldc           Ingrese el nombre del propietario: \n
+         * 68: invokevirtual java/io/PrintStream.print:(Ljava/lang/String;)V
+         * 71: aload_0
+         * 72: aload_1
+         * 73: invokevirtual java/util/Scanner.nextLine:()Ljava/lang/String;
+         * 76: putfield      Perros/Perro.dueno:Ljava/lang/String;
+         * 79: getstatic     java/lang/System.out:Ljava/io/PrintStream;
+         * 82: ldc           Ingrese la fecha dd-mm-aa: \n
+         * 84: invokevirtual java/io/PrintStream.print:(Ljava/lang/String;)V
+         * 87: aload_0
+         * 88: aload_1
+         * 89: invokevirtual java/util/Scanner.nextLine:()Ljava/lang/String;
+         * 92: putfield      Perros/Perro.fecha:Ljava/lang/String;
+         * 95: getstatic     java/lang/System.out:Ljava/io/PrintStream;
+         * 98: ldc           Ingrese la cedula del propietario: \n
+         * 100: invokevirtual java/io/PrintStream.print:(Ljava/lang/String;)V
+         * 103: aload_0
+         * 104: aload_1
+         * 105: invokevirtual java/util/Scanner.nextInt:()I
+         * 108: putfield      Perros/Perro.cedula:I
+         * 111: getstatic     java/lang/System.out:Ljava/io/PrintStream;
+         * 114: ldc           Ingrese el telefono fijo: \n
+         * 116: invokevirtual java/io/PrintStream.print:(Ljava/lang/String;)V
+         * 119: aload_0
+         * 120: aload_1
+         * 121: invokevirtual java/util/Scanner.nextInt:()I
+         * 124: putfield      Perros/Perro.telefonocontacto:I
+         * 127: getstatic     java/lang/System.out:Ljava/io/PrintStream;
+         * 130: ldc           Ingrese la edad del perro: \n
+         * 132: invokevirtual java/io/PrintStream.print:(Ljava/lang/String;)V
+         * 135: aload_0
+         * 136: aload_1
+         * 137: invokevirtual java/util/Scanner.nextInt:()I
+         * 140: putfield      Perros/Perro.edad:I
+         * 143: return
+         *  */
+        // </editor-fold>
+    }
+
+    Perro(String nombre, String raza, String localidad, String propietario,  String fecha, int cedula, int telefonocontacto, int edad) {
+        // <editor-fold defaultstate="collapsed" desc="Compiled Code">
+        /* 0: aload_0
+         * 1: invokespecial java/lang/Object."<init>":()V
+         * 4: aload_0
+         * 5: aload_1
+         * 6: putfield      Perros/Perro.nombre:Ljava/lang/String;
+         * 9: aload_0
+         * 10: aload_2
+         * 11: putfield      Perros/Perro.raza:Ljava/lang/String;
+         * 14: aload_0
+         * 15: aload_3
+         * 16: putfield      Perros/Perro.localidad:Ljava/lang/String;
+         * 19: aload_0
+         * 20: aload         4
+         * 22: putfield      Perros/Perro.dueno:Ljava/lang/String;
+         * 25: aload_0
+         * 26: aload         5
+         * 28: putfield      Perros/Perro.fecha:Ljava/lang/String;
+         * 31: aload_0
+         * 32: iload         6
+         * 34: putfield      Perros/Perro.cedula:I
+         * 37: aload_0
+         * 38: iload         7
+         * 40: putfield      Perros/Perro.telefonocontacto:I
+         * 43: aload_0
+         * 44: iload         8
+         * 46: putfield      Perros/Perro.edad:I
+         * 49: return
+         *  */
+        // </editor-fold>
+    }
+
+    public String toString(String String) {
+        // <editor-fold defaultstate="collapsed" desc="Compiled Code">
+        /* 0: new           java/lang/StringBuilder
+         * 3: dup
+         * 4: ldc           Nombre =
+         * 6: invokespecial java/lang/StringBuilder."<init>":(Ljava/lang/String;)V
+         * 9: aload_0
+         * 10: invokevirtual Perros/Perro.getNombre:()Ljava/lang/String;
+         * 13: invokevirtual java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+         * 16: ldc           \n
+         * 18: invokevirtual java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+         * 21: ldc           Raza =
+         * 23: invokevirtual java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+         * 26: aload_0
+         * 27: invokevirtual Perros/Perro.getRaza:()Ljava/lang/String;
+         * 30: invokevirtual java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+         * 33: ldc           \n
+         * 35: invokevirtual java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+         * 38: ldc           Localidad =
+         * 40: invokevirtual java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+         * 43: aload_0
+         * 44: invokevirtual Perros/Perro.getLocalidad:()Ljava/lang/String;
+         * 47: invokevirtual java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+         * 50: ldc           \n
+         * 52: invokevirtual java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+         * 55: ldc           Propeitario =
+         * 57: invokevirtual java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+         * 60: aload_0
+         * 61: invokevirtual Perros/Perro.getDueno:()Ljava/lang/String;
+         * 64: invokevirtual java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+         * 67: ldc           \n
+         * 69: invokevirtual java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+         * 72: ldc           Fecha =
+         * 74: invokevirtual java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+         * 77: aload_0
+         * 78: invokevirtual Perros/Perro.getFecha:()Ljava/lang/String;
+         * 81: invokevirtual java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+         * 84: ldc           \n
+         * 86: invokevirtual java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+         * 89: ldc           Cedula =
+         * 91: invokevirtual java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+         * 94: aload_0
+         * 95: invokevirtual Perros/Perro.getCedula:()I
+         * 98: invokevirtual java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+         * 101: ldc           \n
+         * 103: invokevirtual java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+         * 106: ldc           Telefono fijo =
+         * 108: invokevirtual java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+         * 111: aload_0
+         * 112: invokevirtual Perros/Perro.getTelefonocontacto:()I
+         * 115: invokevirtual java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+         * 118: ldc           \n
+         * 120: invokevirtual java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+         * 123: ldc           Edad del perro=
+         * 125: invokevirtual java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+         * 128: aload_0
+         * 129: invokevirtual Perros/Perro.getEdad:()I
+         * 132: invokevirtual java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+         * 135: invokevirtual java/lang/StringBuilder.toString:()Ljava/lang/String;
+         * 138: areturn
+         *  */
+        // </editor-fold>
+        return String;
+    }
+
+
+
+
+    /**
+     * @return the raza
+     */
+    public String getRaza() {
+        return raza;
+    }
+
+    /**
+     * @param raza the raza to set
+     */
+    public void setRaza(String raza) {
+        this.raza = raza;
+    }
+
+    /**
+     * @return the localidad
+     */
+    public String getLocalidad() {
+        return localidad;
+    }
+
+    /**
+     * @param localidad the localidad to set
+     */
+    public void setLocalidad(String localidad) {
+        this.localidad = localidad;
+    }
+
+    /**
+     * @param Propietario
+     */
+    public void setDueno(String Propietario) {
+        this.setPropietario(getPropietario());
+        
+    }
+
+    /**
+     * @return the fecha
+     */
+    public String getFecha() {
+        return fecha;
+    }
+
+    /**
+     * @param fecha the fecha to set
+     */
+    public void setFecha(String fecha) {
+        this.fecha = fecha;
+    }
+
+    /**
+     * @return the cedula
+     */
+    public int getCedula() {
+        return cedula;
+    }
+
+    /**
+     * @param cedula the cedula to set
+     */
+    public void setCedula(int cedula) {
+        this.cedula = cedula;
+    }
+
+    /**
+     * @return the telefonocontacto
+     */
+    public int getTelefonocontacto() {
+        return telefonocontacto;
+    }
+
+    /**
+     * @param telefonocontacto the telefonocontacto to set
+     */
+    public void setTelefonocontacto(int telefonocontacto) {
+        this.telefonocontacto = telefonocontacto;
+    }
+
+    /**
+     * @return the edad
+     */
+    public int getEdad() {
+        return edad;
+    }
+
+    /**
+     * @param edad the edad to set
+     */
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    /**
+     * @return the nombre
+     */
+    public String getNombre() {
+        return nombre;
+    }
+
+    /**
+     * @param nombre the nombre to set
+     */
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    /**
+     * @return the dueno
+     */
+    public String getPropietario() {
+        return propietario;
+    }
+
+    /**
+     * @param propietario the propietario to set
+     */
+    public void setPropietario(String propietario) {
+        this.propietario = propietario;
+    }
+}
+
+  
